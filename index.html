@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 
-<html class="light" lang="es"><head>
+<html class="light" lang="es" id="html-root"><head>
 <meta charset="utf-8"/>
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>PARADIGMA | THE STRATEGY OF PRESENCE</title>
@@ -116,9 +116,14 @@
 </div>
 <a class="font-display-lg text-headline-md font-bold tracking-widest text-on-surface uppercase" href="/">PARADIGMA</a>
 <nav class="hidden md:flex gap-8 items-center">
-<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#">Medios de Comunicación</a>
-<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#">Proyectos</a>
-<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#">Contacto Paradigma</a>
+<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#" data-es="Medios de Comunicación" data-pt="Meios de Comunicação">Medios de Comunicación</a>
+<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#" data-es="Proyectos" data-pt="Projetos">Proyectos</a>
+<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors duration-300" href="#" data-es="Contacto" data-pt="Contato">Contacto</a>
+<div class="flex items-center gap-2 ml-4 border-l border-outline/20 pl-4">
+<button id="lang-es" class="font-label-caps text-label-caps text-primary font-bold transition-colors duration-300" onclick="setLanguage('es')">ES</button>
+<span class="text-on-surface/30">|</span>
+<button id="lang-pt" class="font-label-caps text-label-caps text-on-surface/40 hover:text-primary transition-colors duration-300" onclick="setLanguage('pt')">PT</button>
+</div>
 </nav>
 <button class="md:hidden material-symbols-outlined">menu</button>
 </div>
@@ -127,8 +132,8 @@
 <!-- Scroll Intro -->
 <section class="h-screen flex items-center justify-center px-margin-mobile md:px-margin-desktop">
 <div class="max-w-4xl text-center reveal">
-<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg font-bold leading-tight uppercase tracking-tighter text-on-surface">
-                Donde la estrategia se convierte en <span class="font-editorial-italic italic font-normal normal-case tracking-normal text-primary">presencia</span>
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg font-bold leading-tight uppercase tracking-tighter text-on-surface" data-es="Donde la estrategia se convierte en" data-pt="Onde a estrategia se transforma em">
+                Donde la estrategia se convierte en <span class="font-editorial-italic italic font-normal normal-case tracking-normal text-primary" data-es="presencia" data-pt="presenca">presencia</span>
 </h1>
 </div>
 </section>
@@ -137,9 +142,9 @@
 <div class="md:col-span-7 relative reveal">
 <div class="aspect-[1.79] overflow-hidden border border-outline/20 group">
 <div class="flex transition-transform duration-700 ease-in-out h-full" id="carousel">
-<img class="min-w-full object-cover" data-alt="Premium lifestyle photography representing 'culture' and 'education', sophisticated museum interiors, elegant library, minimalist and artistic, deep blacks and clean whites." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpMZVh_HG8vx-cZhivy6MI8_pwoF7lnbi3Lx8yD1M4ur1s4-1GkqyahI5P2N6dSN7OCNtYhKAF1h55RWXnkQGNmBJOQLpX1Ols1jd-vIDLNsPqG-zhvuRD3f52COKY2XGVB7NFljiF9pcghJK49V2ji_YruLR6VYxzG0nzvg6FlwW9FX-CQadi-YOzYJv93xuJDtcAJbvqlMjDhbw9w2jlueKoKPozN5QFogkfUd1b90db6Fh7x_2s8xSrgqtiklBxsma0MteHb-io"/>
-<img class="min-w-full object-cover" data-alt="Luxury editorial photography for a creative agency, minimalist architecture, clean lines, high contrast, black and white, cinematic lighting, sophisticated and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBjCHD64EPvhB7_zS8G1tAMQyPdmaTsDMxw9rlS1EHUSNJzXuqG29BJXnMiOCWOVoARJcLjFoyw9CGun1SsJvT63Hqy3LK5DWmHmUM-yTbViHLZX1JEYdIvD-BuvtvFobhrCx4GpRC6JHZPw4XXv4kFZtLiSkH4MH2ampAtK3ej9dCgdquWfFGTAzb2QfKxZUMc756efwhkrxjlOk3uftl4JTNhtGfs63uHfefdoaH3XzQyDUDT6bAvJZw4P4V_8rJSHG0lHfXuCtwG"/>
-<img class="min-w-full object-cover" data-alt="High-end fashion and events photography, runway silhouette, elegant networking event, cinematic atmosphere, premium and exclusive feel." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAsnt87IDyd7hTQLPx8Cydaftqj_L715bN_Yz6OEMQE4rwe1WA-1yKaI6CqGQLJAK4k6kgfqn70YWfDk_IGvPZUx-jBVGZOOEY7qS7iWkdw-HYVjd_zpJMPEhutbt3xkOxkgAokeIAi5i6E7vXpm-uBofzaTYmAQauU1VWPdLCYbD81KhgOas2lP7j6lSEHQmu6Pyi12200lAIG1ck7nT9JOe4iLL4j5Obx73oIu_Vjhj-Zj4fDrUGS8SJwbWyA3G4HPYAwzyzuPrVX"/>
+<img class="min-w-full object-cover" alt="Brasil Fashion Madrid - Pasarela de moda brasileira" src="images/paradigma-205.jpg"/>
+<img class="min-w-full object-cover" alt="FITUR - Stand de Sao Paulo" src="images/paradigma-144.jpg"/>
+<img class="min-w-full object-cover" alt="Cinema Brasileiro - Voces del Cine" src="images/paradigma-168.jpg"/>
 </div>
 </div>
 <div class="flex gap-4 mt-8">
@@ -164,10 +169,10 @@
 <section class="bg-surface-container-low py-section-gap px-margin-mobile md:px-margin-desktop">
 <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-start">
 <div class="md:col-span-6 reveal">
-<h2 class="font-display-lg text-display-lg-mobile md:text-[64px] font-bold leading-[0.9] uppercase tracking-tighter mb-4 text-on-surface">
-                    MEDIOS DE COMUNICACIÓN
+<h2 class="font-display-lg text-display-lg-mobile md:text-[64px] font-bold leading-[0.9] uppercase tracking-tighter mb-4 text-on-surface" data-es="MEDIOS DE COMUNICACION" data-pt="MEIOS DE COMUNICACAO">
+                    MEDIOS DE COMUNICACION
                 </h2>
-<p class="font-editorial-italic italic text-headline-md text-primary ml-12">estrategia</p>
+<p class="font-editorial-italic italic text-headline-md text-primary ml-12" data-es="estrategia" data-pt="estrategia">estrategia</p>
 </div>
 <div class="md:col-span-1 flex justify-center hidden md:flex">
 <div class="w-[1px] h-64 bg-outline-variant/30"></div>
@@ -176,19 +181,19 @@
 <ul class="space-y-6 mb-12">
 <li class="flex items-center gap-4 group">
 <span class="font-editorial-italic italic text-primary/40 group-hover:text-primary transition-colors">01.</span>
-<span class="font-label-caps text-headline-md uppercase text-on-surface">Estrategias</span>
+<span class="font-label-caps text-headline-md uppercase text-on-surface" data-es="Estrategias" data-pt="Estrategias">Estrategias</span>
 </li>
 <li class="flex items-center gap-4 group">
 <span class="font-editorial-italic italic text-primary/40 group-hover:text-primary transition-colors">02.</span>
-<span class="font-label-caps text-headline-md uppercase text-on-surface">Promoción internacional</span>
+<span class="font-label-caps text-headline-md uppercase text-on-surface" data-es="Promocion internacional" data-pt="Promocao internacional">Promocion internacional</span>
 </li>
 <li class="flex items-center gap-4 group">
 <span class="font-editorial-italic italic text-primary/40 group-hover:text-primary transition-colors">03.</span>
-<span class="font-label-caps text-headline-md uppercase text-on-surface">Representación cultura</span>
+<span class="font-label-caps text-headline-md uppercase text-on-surface" data-es="Representacion cultural" data-pt="Representacao cultural">Representacion cultural</span>
 </li>
 </ul>
 <button class="w-fit px-12 py-6 border border-primary text-primary flex items-center gap-6 hover:bg-primary hover:text-on-primary transition-all duration-500 group">
-<span class="font-label-caps text-label-caps">VER CASOS DE ÉXITO</span>
+<span class="font-label-caps text-label-caps" data-es="VER CASOS DE EXITO" data-pt="VER CASOS DE SUCESSO">VER CASOS DE EXITO</span>
 <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
 </button>
 </div>
@@ -215,67 +220,67 @@
 <!-- Horizontal Scroll Categories -->
 <section class="py-section-gap bg-surface">
 <div class="px-margin-mobile md:px-margin-desktop mb-12 reveal">
-<h2 class="font-label-caps text-label-caps text-on-surface/50 mb-2">SECTORES</h2>
+<h2 class="font-label-caps text-label-caps text-on-surface/50 mb-2" data-es="SECTORES" data-pt="SETORES">SECTORES</h2>
 <div class="h-[1px] w-24 bg-primary"></div>
 </div>
 <div class="horizontal-scroll flex overflow-x-auto gap-gutter px-margin-mobile md:px-margin-desktop snap-x">
 <div class="snap-start min-w-[300px] md:min-w-[450px] aspect-[3/4] relative group overflow-hidden border border-outline/10">
-<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="A minimalist contemporary art gallery" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA_CBfOXoKrKpo2SSgvdEKxzYM9aEk7p1SHAaSRkDpgA1l_zes-yW62XJccWHWZwlpAj4MlTqMEbIldTV4iMmtmC8XqXYgD5KbkKtHAAJBNJoeqO7HdtYMC8mC3-rEDwVmGXU3UyzoOIKOAioTWrImFWlmhnLoyLFGKblr6VOcKYTkJFQDM_PtOOWE2-bR_9VpUdapYGp_x8AFe2yOVIhQ4zQXp_T0_KWFiaL0uNtTadCORscfPaI9Y4hbCPHjvkfb8p-pVW_AfRLtZ"/>
+<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" alt="Meninas de Madrid - Arte brasileira" src="images/paradigma-080.jpg"/>
 <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/5 transition-colors duration-500"></div>
 <div class="absolute inset-0 flex items-end p-8">
-<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg">cultura</h4>
+<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg" data-es="cultura" data-pt="cultura">cultura</h4>
 </div>
 </div>
 <div class="snap-start min-w-[300px] md:min-w-[450px] aspect-[3/4] relative group overflow-hidden border border-outline/10">
-<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="A grand modern library" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA67Q10UgNqg9qJqLSuXl66svx5zg-vaJeuh70XjUuo5dAgWNJMm-DEmLGMg5MfBsAJ_hSsb3xQNm_YaT7DyX1aseEQp7OM5Bi1DU-_egOaiwNVyUn1DnrdTaXGrYQYg-BbD_fkyh4K4KePgGQkezUjjCfoMRXDuvWiGCCAzlFjxJ7x52pHj27aaqM0-br_bD9ZBdE5KqdHLEBX0sKb5rPOaoGdOsaF0y6JtP_9_3haQvL9Di4RHdMAsKcDgYacv46EqVEaOTAIh8JK"/>
+<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" alt="Cinema Brasileiro - Casa America" src="images/paradigma-168.jpg"/>
 <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/5 transition-colors duration-500"></div>
 <div class="absolute inset-0 flex items-end p-8">
-<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg">educación</h4>
+<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg" data-es="educación" data-pt="educacao">educación</h4>
 </div>
 </div>
 <div class="snap-start min-w-[300px] md:min-w-[450px] aspect-[3/4] relative group overflow-hidden border border-outline/10">
-<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="Exclusive networking event" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAF_ODQ-9nDNl155X2KvhLhUPTUcRTQp0psWA8iqHmkcJ0RibH3AtbHs6yEM4ivy9mlgqVD6qWLsIdn-q8bTVjXk-8Up-QD_HEozXOQtUjI70pwcciXcSrwtjsnOLaxp1R9Vx1WJm4LHPgq1MWTAGgVOHK12bU7Oz1IdFoo7emKy5f0jnM-rEy3OxqjCqQ5rbNRyUep5fCmM2SanFUYE8bs4rMVNW3ShEmc_itdRd2ybgP5hDOw70VhVppjGtZtkVatE0u_fLxTKHEc"/>
+<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" alt="FITUR - Equipo Sao Paulo" src="images/paradigma-120.jpg"/>
 <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/5 transition-colors duration-500"></div>
 <div class="absolute inset-0 flex items-end p-8">
-<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg">eventos</h4>
+<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg" data-es="eventos" data-pt="eventos">eventos</h4>
 </div>
 </div>
 <div class="snap-start min-w-[300px] md:min-w-[450px] aspect-[3/4] relative group overflow-hidden border border-outline/10">
-<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" data-alt="High fashion runway" src="https://lh3.googleusercontent.com/aida-public/AB6AXuACV_QT-X681UM463Va0qFJMh_VHA31xqqEhznguykwFEhQWDzQRgGwjlnzm3ZaooG_VVNnZKrT6jWDC4mQLk7Uz6Et1oMYfra_B9GE3fYimOI-dWltKz1ddjwvtBn0JmnWV3YPMelYAF6V77KIEZa0Dp2ROEwboT6x4oBQm0K8DtPvkDbm8GATUD0ysXkApR5K8wBIce6z7Q9No3BH4dvsGZnddpq1v7r4QIDN8TSi0UOEGcL5oYhrNgJgsL5PaXLsK8s4XVU5XRlX"/>
+<img class="w-full h-full object-cover grayscale opacity-80 group-hover:opacity-100 group-hover:grayscale-0 transition-all duration-700 group-hover:scale-110" alt="Pasarela Brasil Fashion Madrid" src="images/paradigma-228.jpg"/>
 <div class="absolute inset-0 bg-primary/20 group-hover:bg-primary/5 transition-colors duration-500"></div>
 <div class="absolute inset-0 flex items-end p-8">
-<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg">moda</h4>
+<h4 class="font-display-lg text-headline-md font-bold uppercase text-white drop-shadow-lg" data-es="moda" data-pt="moda">moda</h4>
 </div>
 </div>
 </div>
 </section>
 <!-- Projects -->
 <section class="px-margin-mobile md:px-margin-desktop py-section-gap">
-<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg font-bold uppercase tracking-tighter mb-12 reveal text-on-surface">PROYECTOS</h2>
+<h2 class="font-display-lg text-display-lg-mobile md:text-display-lg font-bold uppercase tracking-tighter mb-12 reveal text-on-surface" data-es="PROYECTOS" data-pt="PROJETOS">PROYECTOS</h2>
 <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
 <div class="aspect-square border border-outline-variant relative group cursor-pointer overflow-hidden reveal bg-surface-container-low">
-<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" data-alt="International scale pavilion" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAHr2yYXdVPKmmYyflk5T0JxpnZrUKpTbzLZzO293Rfop7AeUuNmcbN-CEzT4T4_QV5FMRRysrYZQ6lCfFhcGT2xkkpnPofI2WA574cB9pUMjsDTWVEL1IZkovGBsOEkCMBWzAoAJ9T-_4_FCIOvYRoGolFs6bExCmCLwlwLZi82JPA1QiqlaFU9AAg5UW1dWt29zZqXEaucx8PShXLNGado4C4qgEiqCjWyIX2WRdS0Dj3wt8EKMttrNbWb6Qog1ywOOr5q8-5DsQd"/>
+<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" alt="FITUR - Stand Sao Paulo" src="images/paradigma-144.jpg"/>
 <div class="absolute inset-0 p-8 flex flex-col justify-between">
 <span class="font-label-caps text-label-caps text-primary">01</span>
 <h5 class="font-headline-md uppercase group-hover:text-primary transition-colors text-on-surface">FITUR</h5>
 </div>
 </div>
 <div class="aspect-square border border-outline-variant relative group cursor-pointer overflow-hidden reveal bg-surface-container-low" style="transition-delay: 0.1s;">
-<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" data-alt="Cinema industry prestige" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBPUrB4C2pw9qrvHcxnCpgKWpr-7MoMoSikJVH4BEB1N6JUdU0e6Wg99KNGwWEKM8aEq1ORduGoGWCMGcUdvb0kAuHwHYxvbnV4PwAWgKhyX35xbQT8JHXWR1q__anskeVoLaWnxsY1iQ4dTB7bhzkYp3CxxgPZxEkK-_WwT6jCdBF2D0hsyOgHhjqw5bCY59hKKnuSFUaf7aJM6_uuBOBk4DIgiUQJfhCQ7kNIG0Ioj3k6sVriTc5KLcuH06jb06SBeE71JE2P6WLK"/>
+<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" alt="NovoCine - Festival de Cinema Brasileiro" src="images/paradigma-092.jpg"/>
 <div class="absolute inset-0 p-8 flex flex-col justify-between">
 <span class="font-label-caps text-label-caps text-primary">02</span>
 <h5 class="font-headline-md uppercase group-hover:text-primary transition-colors text-on-surface">CINEMA</h5>
 </div>
 </div>
 <div class="aspect-square border border-outline-variant relative group cursor-pointer overflow-hidden reveal bg-surface-container-low" style="transition-delay: 0.2s;">
-<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" data-alt="Luxury fashion studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDGO76VRPTQLSHDYBwirVlPH7GnkpehshPnPYyn3hv6n5NNDzXIdPE1WYlu6sdl5Iu6l5pf1dsBu32oUXg4LWTXDDICHlEdRi8gc2cgRze89hNlPqBWKPni72hz1NWDhcou2oWNBw_sbvbUXnLg6oNgvI1yj8n0OJY5N70LoedtUICgubBY1cS385OGHU2YDUFQOR7ekzA_8GcwhzMDTIRlPcDVXQvs4O13_kk3ukpuPCCVJqx9FcI1iwZR1bYKmI5_84Gk5e95cBEd"/>
+<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" alt="Brasil Fashion Madrid - Pasarela" src="images/paradigma-181.jpg"/>
 <div class="absolute inset-0 p-8 flex flex-col justify-between">
 <span class="font-label-caps text-label-caps text-primary">03</span>
 <h5 class="font-headline-md uppercase group-hover:text-primary transition-colors text-on-surface">PASARELA</h5>
 </div>
 </div>
 <div class="aspect-square border border-outline-variant relative group cursor-pointer overflow-hidden reveal bg-surface-container-low" style="transition-delay: 0.3s;">
-<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" data-alt="Stylized art sculpture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3SPjKj4q0Je0nzbJixoG5hThtPUtNVBKtxZMnx1vJb5kiPpniTt6KZ5HHJMIV0KfKwX5OY9qP-TjQdAU7HDuDqL-a42dJWuUeb-IzcfxMI2uuZvtBxtiw0KfNMBYzOLg5p--sKLnRAKtyX7Eahuw9b-EFbujur5dvcqwV1i67cQgHC6jjuDwoFadFCq8U5JSguyf94Gf992X98-XL3SyHh3hfMbkQi_rAtGW0FaQigHhdUcclWM8PJbzAXcY9DNr6d0M8IWOMu1ze"/>
+<img class="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-60 transition-opacity duration-500" alt="Meninas de Madrid - Escultura" src="images/paradigma-080.jpg"/>
 <div class="absolute inset-0 p-8 flex flex-col justify-between">
 <span class="font-label-caps text-label-caps text-primary">04</span>
 <h5 class="font-headline-md uppercase group-hover:text-primary transition-colors text-on-surface">MENINAS</h5>
@@ -285,10 +290,10 @@
 </section>
 <!-- Final CTA -->
 <section class="bg-primary-container text-on-primary-container py-section-gap px-margin-mobile md:px-margin-desktop text-center reveal">
-<h2 class="font-display-lg text-headline-md md:text-[48px] font-bold uppercase max-w-4xl mx-auto mb-12 tracking-tight">
+<h2 class="font-display-lg text-headline-md md:text-[48px] font-bold uppercase max-w-4xl mx-auto mb-12 tracking-tight" data-es="Juntos transformaremos ideas en experiencias internacionales" data-pt="Juntos transformaremos ideias em experiencias internacionais">
             Juntos transformaremos ideas en experiencias internacionales
         </h2>
-<button class="px-16 py-8 bg-surface text-on-surface border border-primary/20 hover:bg-surface-bright hover:shadow-xl transition-all duration-300 font-label-caps text-label-caps tracking-widest scale-100 active:scale-95">
+<button class="px-16 py-8 bg-surface text-on-surface border border-primary/20 hover:bg-surface-bright hover:shadow-xl transition-all duration-300 font-label-caps text-label-caps tracking-widest scale-100 active:scale-95" data-es="EMPEZAMOS" data-pt="COMECAMOS">
             EMPEZAMOS
         </button>
 </section>
@@ -297,15 +302,15 @@
 <footer class="bg-surface-container-low py-section-gap border-t border-outline-variant/30">
 <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter px-margin-mobile md:px-margin-desktop items-end">
 <div class="md:col-span-6">
-<p class="font-body-lg max-w-md mb-12 text-on-surface-variant">
-                Nuestra misión es la construcción de puentes entre la visión creativa y el impacto global. Redefinimos la estrategia para convertirla en una presencia ineludible.
+<p class="font-body-lg max-w-md mb-12 text-on-surface-variant" data-es="Nuestra mision es la construccion de puentes entre la vision creativa y el impacto global. Redefinimos la estrategia para convertirla en una presencia ineludible." data-pt="Nossa missao e a construcao de pontes entre a visao criativa e o impacto global. Redefinimos a estrategia para transforma-la em uma presenca inevitavel.">
+                Nuestra mision es la construccion de puentes entre la vision creativa y el impacto global. Redefinimos la estrategia para convertirla en una presencia ineludible.
             </p>
 <div class="font-display-lg text-headline-md font-bold tracking-tighter uppercase mb-2 text-on-surface">PARADIGMA</div>
 <p class="font-body-sm opacity-40">© 2024 PARADIGMA. THE STRATEGY OF PRESENCE.</p>
 </div>
 <div class="md:col-span-6 flex flex-col md:items-end gap-8">
 <nav class="flex gap-8">
-<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors" href="#">Instagram</a>
+<a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors" href="https://www.instagram.com/paradigmacomunicacion_/" target="_blank">Instagram</a>
 <a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors" href="#">LinkedIn</a>
 <a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors" href="#">Email</a>
 <a class="font-label-caps text-label-caps text-on-surface/60 hover:text-primary transition-colors" href="#">Legal</a>
@@ -353,5 +358,46 @@
         // Subtle background shift for luminous effect
         document.body.style.background = `radial-gradient(circle at ${x * 100}% ${y * 100}%, #ffffff 0%, #fff8f5 100%)`;
     });
+
+    // Language switching
+    let currentLang = 'es';
+
+    function setLanguage(lang) {
+        currentLang = lang;
+        document.getElementById('html-root').lang = lang;
+
+        // Update button states
+        document.getElementById('lang-es').classList.toggle('text-primary', lang === 'es');
+        document.getElementById('lang-es').classList.toggle('font-bold', lang === 'es');
+        document.getElementById('lang-es').classList.toggle('text-on-surface/40', lang !== 'es');
+        document.getElementById('lang-pt').classList.toggle('text-primary', lang === 'pt');
+        document.getElementById('lang-pt').classList.toggle('font-bold', lang === 'pt');
+        document.getElementById('lang-pt').classList.toggle('text-on-surface/40', lang !== 'pt');
+
+        // Update all translatable elements
+        document.querySelectorAll('[data-es][data-pt]').forEach(el => {
+            const text = el.getAttribute('data-' + lang);
+            if (text) {
+                if (el.children.length > 0) {
+                    const span = el.querySelector('span[data-es][data-pt]');
+                    if (span) {
+                        const beforeSpan = el.getAttribute('data-' + lang);
+                        el.firstChild.textContent = beforeSpan + ' ';
+                    }
+                } else {
+                    el.textContent = text;
+                }
+            }
+        });
+
+        // Store preference
+        localStorage.setItem('paradigma-lang', lang);
+    }
+
+    // Load saved language preference
+    const savedLang = localStorage.getItem('paradigma-lang');
+    if (savedLang) {
+        setLanguage(savedLang);
+    }
 </script>
 </body></html>
