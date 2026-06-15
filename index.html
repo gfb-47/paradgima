@@ -288,14 +288,25 @@
 </div>
 </div>
 </section>
-<!-- Final CTA -->
+<!-- Final CTA / Contact Form -->
 <section id="contacto" class="bg-primary-container text-on-primary-container py-section-gap px-margin-mobile md:px-margin-desktop text-center reveal scroll-mt-24">
-<h2 class="font-display-lg text-headline-md md:text-[48px] font-bold uppercase max-w-4xl mx-auto mb-12 tracking-tight" data-es="Juntos transformaremos ideas en experiencias internacionales" data-pt="Juntos transformaremos ideias em experiencias internacionais">
+<h2 class="font-display-lg text-headline-md md:text-[48px] font-bold uppercase max-w-4xl mx-auto mb-8 tracking-tight" data-es="Juntos transformaremos ideas en experiencias internacionales" data-pt="Juntos transformaremos ideias em experiencias internacionais">
             Juntos transformaremos ideas en experiencias internacionales
         </h2>
-<button class="px-16 py-8 bg-surface text-on-surface border border-primary/20 hover:bg-surface-bright hover:shadow-xl transition-all duration-300 font-label-caps text-label-caps tracking-widest scale-100 active:scale-95" data-es="EMPEZAMOS" data-pt="COMECAMOS">
-            EMPEZAMOS
-        </button>
+<p class="font-body-lg mb-12 opacity-80" data-es="Contactanos para comenzar tu proyecto" data-pt="Entre em contato para comecar seu projeto">Contactanos para comenzar tu proyecto</p>
+<form action="https://formsubmit.co/cleoparadigma@gmail.com" method="POST" class="max-w-xl mx-auto space-y-6">
+<input type="hidden" name="_subject" value="Nuevo contacto desde Paradigma web">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_next" value="https://paradigma-es.vercel.app/?sent=true">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<input type="text" name="name" required placeholder="Nombre / Nome" data-placeholder-es="Nombre" data-placeholder-pt="Nome" class="px-6 py-4 bg-surface text-on-surface border border-primary/20 focus:border-primary focus:outline-none transition-colors font-body-sm placeholder:text-on-surface/40">
+<input type="email" name="email" required placeholder="Email" class="px-6 py-4 bg-surface text-on-surface border border-primary/20 focus:border-primary focus:outline-none transition-colors font-body-sm placeholder:text-on-surface/40">
+</div>
+<textarea name="message" required rows="4" placeholder="Mensaje / Mensagem" data-placeholder-es="Mensaje" data-placeholder-pt="Mensagem" class="w-full px-6 py-4 bg-surface text-on-surface border border-primary/20 focus:border-primary focus:outline-none transition-colors font-body-sm placeholder:text-on-surface/40 resize-none"></textarea>
+<button type="submit" class="px-16 py-6 bg-surface text-on-surface border border-primary/20 hover:bg-surface-bright hover:shadow-xl transition-all duration-300 font-label-caps text-label-caps tracking-widest scale-100 active:scale-95" data-es="ENVIAR" data-pt="ENVIAR">
+                ENVIAR
+            </button>
+</form>
 </section>
 </main>
 <!-- Footer -->
